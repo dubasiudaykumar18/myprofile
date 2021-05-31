@@ -161,6 +161,15 @@ iframe {
   font-size: 20px;
   padding-top: 8px;
 }
+.header .list-logos {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .list-logos li img {
+  max-width: 100px;
+}
 /* ======= Sections======= */
 .sections-wrapper {
   padding-top: 60px;
@@ -523,6 +532,9 @@ iframe {
   }
   .project-image {
     margin-bottom: 15px;
+  }
+  .header .list-logos {
+    width: 100%;
   }
 }
 /* Small devices (tablets, 768px and up) */
